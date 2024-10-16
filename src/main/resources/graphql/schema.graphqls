@@ -1,0 +1,14 @@
+type Query {
+    getNavratriDaysList: [NavratriDay]
+}
+
+type NavratriDay {
+    id: ID
+    day:Int
+    goddess:String
+    mantra:String
+    description:String
+    color:String
+
+}
+
